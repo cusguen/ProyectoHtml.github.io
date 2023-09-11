@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitacora De Actividades</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      background-image: url(images/bg.jpg);
+      background-color: rgb(255, 255, 255);
+    }
+
+    header {
+      background-color: #000000;
+      color: #ffcc00;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn{
+    display: inline-block;
+    padding: 8px 20px;
+    color: #ffff;
+    text-decoration: none;
+    background: #6800b8;
+    }
+    .btn:hover{
+    background: none;
+    }
+    .btn-home{
+        display: flex;
+    }
+    .btn-home a{
+        margin: 0 10px;
+    }
+    h1, h2 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #B2685F;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #6800b8;
+      color: #f4f4f4
+    }
+    td{
+      background-color: #000000;
+      color: white;
+    }
+    a {
+      color: #8235ff;
+    }
+
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .container {
+        padding: 10px;
+      }
+
+      table {
+        font-size: 14px;
+      }
+
+      th, td {
+        padding: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Bitacora de Actividades PWII</h1>
+  <h2>Desarrollado por: Santiago Cusgüen Peralta.</h2>
+</header>
+<marquee>
+<img src="./images/uni.png" alt="Universitaria de Colombia" />
+</marquee>
+<div class="container">
+  <table>
+    <thead>
+    <tr>
+      <th>Nombre Actividad</th>
+      <th>Enlace de la Actividad</th>
+      <th>Desarrollo de Actividades</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Primera Actividad</td>
+      <td><a href="actividad_01.html" target="_blank">actividad_01</a></td>
+      <td><a href="Personalizada1.html" class="btn">Personalizada 01</a></td>
+    </tr>
+    <tr>
+      <td>Segunda Actividad</td>
+      <td><a href="actividad_02.html" target="_blank">actividad_02</a></td>
+      <td><a href="Personalizada2.html" class="btn">Personalizada 02</a></td>
+    </tr>
+    <tr>
+      <td>Tercera Actividad</td>
+      <td><a href="actividad_03.html" target="_blank">actividad_03</a></td>
+      <td><a href="Personalizada3.html" class="btn">Personalizada 03</a></td>
+    </tr>
+    <tr>
+      <td>Cuarta Actividad</td>
+      <td><a href="actividad_04.html" target="_blank">actividad_04</a></td>
+      <td><a href="Personalizada4.html" class="btn">Personalizada 04</a></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
